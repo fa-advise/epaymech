@@ -1,0 +1,8 @@
+version: "3.1"
+
+services:
+  web:
+      image: "reg.fa-advise.net:2083/epaymech:1.16"
+      environment:
+        - COMPOSER_MEMORY_LIMIT=-1
+      network_mode: host
